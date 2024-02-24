@@ -1,12 +1,16 @@
 {
-  "name": "kraken_api",
+  "name": "kraken_api_wrapper",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple Kraken API Wrapper for Node.js",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "keywords": ["kraken", "api", "wrapper"],
+  "author": "Ganesh Gunasegaran <me@itsgg.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.7"
+  }
 }
